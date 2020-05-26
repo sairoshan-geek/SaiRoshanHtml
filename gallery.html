@@ -59,6 +59,27 @@
             height: 200px;
             font-size: 20pt
         }
+        /* Add styles for the Images here*/
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }        
     </style>
     <meta charset="utf-8" />
     <title>Gallery</title>
@@ -73,11 +94,20 @@
     </div>
     <h2>These are the pictures of our shop</h2>
 
+    <!--This is for an Image-->
     <div class="gallery">
         <a target="_blank" href=Images/images.jpeg>
             <img src=Images/images.jpeg alt="Cinque Terre" width="180" height="100">
         </a>
         <div class="desc">Add a description of the image here</div>
     </div>
+    <div class="gallery"> </div>
+        <a target="_blank" href=Images/images.jpeg>
+            <img src=Images/shop.jpeg alt="Cinque Terre" width="180" height="100">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+
+        <!--Another Image here-->
+
 </body>
 </html>
