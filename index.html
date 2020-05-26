@@ -1,7 +1,7 @@
-
 <html>
 <head>
-    <meta name=" sri raghavendra rice corner" content="width = device - width" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+    <meta name="sri raghavendra rice corner" content="width = device - width" />
     <style>
         .topnav {
             overflow: hidden;
@@ -54,17 +54,52 @@
     <title>sri raghavendra rice corner </title>
 </head>
 <body>
+    <script src="Script1.js"></script>
     <div class="topnav">
-        <a class="active"  href=index.html>Home</a>
+        <a class="active" href=index.html>Home</a>
         <a href=history.html>News</a>
         <a href=ContactUs.html>Contact</a>
         <a href=About.html>About</a>
         <a href=gallery.html>Gallery</a>
 
-        
+
     </div>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
 
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="Images/banner_1.jpg" style="width:100%">
+            <div class="text">Groceries</div>
+        </div>
 
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="Images/supermarket-shelf-blur-yogurt.jpg" style="width:100%; height:470px">
+            <div class="text">Sanitary Products</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="Images/Run.jpeg" style="width:100%">
+            <div class="text">Shop</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <!--<div>
+        <a target="_blank" href=Images/IMG-20200526-WA0051.jpg>
+            <img src=Images/IMG-20200526-WA0051.jpg width="600" height="400">
+        </a>
+        <div class="desc">Moong dall</div>
+    </div>-->
     <h2>History:</h2>
     <p>
         Raghavendra rice corner was opened in 2018 , july .
