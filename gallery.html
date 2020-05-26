@@ -47,9 +47,9 @@
             height: 800px;
         }
 
-        h2 {
+        /*h2 {
             background-color: lightgrey
-        }
+        }*/
 
         .myDiv {
             border: 5px outset;
@@ -61,15 +61,23 @@
         }
     </style>
     <meta charset="utf-8" />
-    <title>gallery</title>
+    <title>Gallery</title>
 </head>
 <body>
-    <h2>these are the pictures of our shop</h2>
-    <a href=index.html>Home</a>
-    <a href=history.html>News</a>
-    <a href=ContactUs.html>Contact</a>
-    <a href=About.html>About</a>
-    <a class="active" href=gallery.html>gallery</a>
+    <div class="topnav">
+        <a href=index.html>Home</a>
+        <a href=history.html>News</a>
+        <a href=ContactUs.html>Contact</a>
+        <a href=About.html>About</a>
+        <a class="active" href=gallery.html>Gallery</a>
+    </div>
+    <h2>These are the pictures of our shop</h2>
 
+    <div class="gallery">
+        <a target="_blank" href="Images/images.jpeg">
+            <img src="Images/images.jpeg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
 </body>
 </html>

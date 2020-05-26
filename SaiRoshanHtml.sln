@@ -14,9 +14,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\..\Users\makam_000\Desktop\SRT.html = ..\..\..\Users\makam_000\Desktop\SRT.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{59427FFF-EB37-4E4E-AAE8-00BEEFFA701B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\makam_000\Desktop\images.jpeg = ..\..\..\Users\makam_000\Desktop\images.jpeg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59427FFF-EB37-4E4E-AAE8-00BEEFFA701B} = {9D7ACFF2-8D34-4260-8B64-928C32482419}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6D432CE-33E3-448E-A56E-0B58C9083F01}
